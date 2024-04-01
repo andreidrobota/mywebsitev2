@@ -142,26 +142,37 @@ footer {
 }
 
 
-/*Side-Index Elements */
+/*Side  Elements */
 
 .side-index {
     background-color: #66cccc;
     color: white;
 }
 
-.work-title {
+.side-title {
     font-weight: 500;
     font-size: 30px;
     padding: 20px;
 }
 
-.bg-card {
+.bg-card-index {
     background-color: #66cccc;
     border: none;
     color: white;
 }
 
-/* Main-Index Elements */
+.bg-card-about {
+    background-color: #272643;
+    border: none;
+    color: white;
+}
+
+.side-about {
+    background-color: #272643;
+    color: white;
+}
+
+/* Main Elements */
 
 .main-title {
     font-weight: 500;
