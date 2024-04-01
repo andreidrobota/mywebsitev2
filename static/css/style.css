@@ -172,6 +172,17 @@ footer {
     color: white;
 }
 
+.side-contact {
+    background-color: #264143;
+    color: white;
+}
+
+.bg-card-contact {
+    background-color: #264143;
+    border: none;
+    color: white;
+}
+
 /* Main Elements */
 
 .main-title {
