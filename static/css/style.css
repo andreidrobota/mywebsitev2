@@ -31,6 +31,10 @@ body {
 .padding-fix {
     padding: 0;
 }
+
+.margin-r-fix {
+    margin-right: 0;
+}
 /* Header */
 
 #nav {
@@ -135,4 +139,38 @@ footer {
 
 .copyright {
     color: white !important;
+}
+
+
+/*Side-Index Elements */
+
+.side-index {
+    background-color: #66cccc;
+    color: white;
+}
+
+.work-title {
+    font-weight: 500;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.bg-card {
+    background-color: #66cccc;
+    border: none;
+    color: white;
+}
+
+/* Main-Index Elements */
+
+.main-title {
+    font-weight: 500;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.main-content {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px;
 }
