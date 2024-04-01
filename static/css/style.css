@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #ffffff;
+    color: black;
+}
+
+/* Custom Colors */
+
+.color-home {
+    background-color: #66cccc;
+}
+
+.color-about {
+    background-color: #272643;
+}
+
+.color-contact {
+    background-color: #264143;
+}
+
+.color-download {
+    background-color: #1a81ff;
+}
+
+
+/* Position Fixes */
+
+.padding-fix {
+    padding: 0;
+}
+/* Header */
+
+#nav {
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    background-color: #2c698d;
+    color: white;
+}
+
+.heading {
+    margin-right: 50px;
+}
+
+.name {
+    color: #ffffff;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.title {
+    color: #ffffff;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.personal-image {
+    background: url("../images/nobody.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.navitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.navitem a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 120px;
+}
+
+.navitem a i {
+    padding-top: 20px;
+    display: block;
+    color: white;
+    font-size: 25px;
+}
+
+.navitem span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    font-family: 'Exo', sans-serif;
+}
+
+.hvr-bounce-to-bottom::before {
+    background: rgba(0,0,0,.3) !important;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #2c698d;
+}
+
+.footer-list {
+    margin: 10px;
+}
+
+.footer-list li {
+    font-size: 30px;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list a:hover {
+    color: black;
+}
+
+.copyright {
+    color: white !important;
+}
