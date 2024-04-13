@@ -32,6 +32,10 @@ body {
     padding: 0;
 }
 
+.padding-r-fix {
+    padding-right: 0;
+}
+
 .margin-r-fix {
     margin-right: 0;
 }
