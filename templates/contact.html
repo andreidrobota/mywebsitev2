@@ -3,22 +3,23 @@
     <div class="row no-gutters margin-r-fix">
         <div class="col-md-8 padding-r-fix">
             <h5 class="main-title text-center">Contact Form</h5>
-            <form method="POST" class="text-center">
+            <form method="POST" onsubmit="return sendMail(this);" class="text-center">
                 <div class="row">
                     <div class="col-lg-4"></div>
                     <div class="col-lg-4">
                     <div class="mb-3">
                         <label for="name" class="form-label">Full Name:</label>
-                        <input type="text" class="form-control" id="name" name="fullname" required>
+                        <input type="text" class="form-control" id="name" name="name" required>
                     </div>    
                     <div class="mb-3">
-                        <label for="contactEmail" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="contactEmail" name="contactEmail" required>
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3">
-                        <label for="company" class="form-label">Company name (Optional)</label>
-                        <input type="text" class="form-control" id="company" name="company">
+                        <label for="company" class="form-label">Company name</label>
+                        <input type="text" class="form-control" id="company" name="company" placeholder="None">
+                        <div id="companyHelp" class="form-text">If you do not represent a company, leave None</div>
                     </div>
                     <div class="mb-3">
                         <label for="content" class="form-label">Message</label>
